@@ -30,6 +30,12 @@
 	margin: 1em 0;
     position: relative; 
 }
+.Shape {
+  width: 82px;
+  height: 28px;
+  border-radius: 100px;
+  background-color: #39db2f;
+}
 
 .bodyImg{
 	height: auto;
@@ -67,4 +73,8 @@
   line-height: normal;
   letter-spacing: normal;
   color: #5973ff;
+}
+.footer{
+	height: 82px;
+	background-color: #4b4e5f;
 }
