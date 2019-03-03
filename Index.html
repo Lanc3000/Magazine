@@ -27,18 +27,18 @@
 	
 </head>
 <body style="background-color: #f6f6f6">
-  <nav class="navbar navbar-expand-lg navBar ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark"">
+    <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item mr-2">
         <img src="img/time-icon-gray.png"> 
       </li>
       <li class="nav-item mr-3">
-        <p class="txtForNavBar"> Пн-Пт 11:00 - 20:00  Сб: 13:00 - 20:00</p>
+        <p class="txtForNavBar " > Пн-Пт 11:00 - 20:00  Сб: 13:00 - 20:00</p>
       </li>
          <li  class="nav-item mr-2">
 		 <img src="img/time-icon-gray.png"> 
@@ -64,8 +64,11 @@
       <li class="nav-item mr-3">
 	  <p class="txtForNavBarWhite">Доставка</p>
       </li>
+	  <li class="nav-item">
+		<button type="button" class="btn btn-success" >Вход</button>
+	  </li>
     </ul>
-	<button type="button" class="btn btn-success" >Вход</button>
+	
     </div>
 </nav>
 
@@ -89,8 +92,21 @@
 	  <div class="container">
 		<div class="row">
 			<div class="col-lg-9 col-md-8 col-sm-12">
-				<img align="center" src="img/child1.png" class="img-fluid bodyImg">
-			</div>
+				<div class="card bg-dark text-white d-flex flex-row align-items-end">
+					  <img align="center" src="img/child1.png" class="img-fluid bodyImg" alt="Card image"> 
+					  <div class="card-img-overlay">
+						<h3>Новая коллекция одежды для детей!</h3>
+						<p class="card-text">	Мы приняли боевой окрас и с серьезными лицами 
+												готовим <br> для вас новые порции уникальных look'ов. 
+												Настраивайтесь <br> на нашу волну и следите за новостями 😍
+						</p>
+						<button type="button" class="btn btn-secondary">
+							Подробнее
+							<img src="img/ic-navigate-next-black-48-px.png">
+						</button>
+					  </div>
+					</div>
+				</div>
 			<div class="col-lg-3 col-md-4 col-sm-12">
 				<img align="center" src="img/jemp1.jpeg" class="img-fluid bodyImg">
 				<img align="center" src="img/comb.jpg" class="img-fluid bodyImg">
@@ -216,19 +232,66 @@
 
 	<footer class="footer d-flex  align-items-center">
 		<div class="container">
-			<div class="row justify-content-around ">
-				<div >
-					<img src="img/LIMLOOK.png"></img>
-				</div>
-					<p class="txtForNavBarWhite">Платья и юбки</p>
-					<p class="txtForNavBarWhite">Комбинезоны</p>
-					<p class="txtForNavBarWhite">Свитшоты</p>
-					<p class="txtForNavBarWhite">Футболки</p>
-					<p class="txtForNavBarWhite">Халаты</p>
-					<p class="txtForNavBarWhite">Штаны</p>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">   
-				</form>
+				<div class="row justify-content-around ">
+					<div >
+						<img src="img/LIMLOOK.png"></img>
+					</div>
+						<p class="txtForNavBarWhite">Платья и юбки</p>
+						<p class="txtForNavBarWhite">Комбинезоны</p>
+						<p class="txtForNavBarWhite">Свитшоты</p>
+						<p class="txtForNavBarWhite">Футболки</p>
+						<p class="txtForNavBarWhite">Халаты</p>
+						<p class="txtForNavBarWhite">Штаны</p>
+						<div class="mr-2">
+							<img src="img/group-22.png"></img>
+						</div>
+						<div class="mr-2">
+							<img src="img/group-24.png"></img>
+						</div>
+						<div class="mr-2">
+							<img src="img/group-23.png"></img>
+						</div>
+				</div>			
+		</div>
+	</footer>
+	<footer class="footer d-flex  align-items-center">
+		<div class="container">
+				<div class="row justify-content-around ">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto">
+						  <li class="nav-item mr-2">
+							<img src="img/time-icon-gray.png"> 
+						  </li>
+						  <li class="nav-item mr-3">
+							<p class="txtForNavBar"> Пн-Пт 11:00 - 20:00  Сб: 13:00 - 20:00</p>
+						  </li>
+							 <li  class="nav-item mr-2">
+							 <img src="img/time-icon-gray.png"> 
+							</li>
+						  <li class="nav-item mr-5">
+							<p class="txtForNavBar"> +7 (495) 989-20-11</p>
+						  </li>
+						   <li  class="nav-item mr-2">
+							 <img src="img/time-icon-gray.png"> 
+							</li>
+						  <li class="nav-item mr-3">
+						  <p class="txtForNavBarWhite">Инфо</p>
+						  </li>
+						  <li  class="nav-item mr-2">
+							 <img src="img/time-icon-gray.png"> 
+							</li>
+						  <li class="nav-item mr-3">
+						  <p class="txtForNavBarWhite">Оплата</p>
+						  </li>
+						  <li  class="nav-item mr-2">
+							 <img src="img/shape.png"> 
+							</li>
+						  <li class="nav-item mr-3">
+						  <p class="txtForNavBarWhite">Доставка</p>
+						  </li>
+						</ul>
+						<button type="button" class="btn btn-success" >Вход</button>
+					</div>
 			</div>
 		</div>
 	</footer>

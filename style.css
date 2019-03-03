@@ -1,4 +1,4 @@
-.navBar{
+.bcgNav{
 	height: 56px;
 	background-color: #4b4e5f;
 }
@@ -7,13 +7,18 @@
   height: 28px;
   border-radius: 10px;
   }
+.navbar-collapse{
+justify-content: flex-end;
+}
 .txtForNavBar{
 	  font-family: MuseoSansCyrl;
 	  font-style: normal;
 	  font-stretch: normal;
-	  line-height: normal;
+	 
 	  letter-spacing: normal;
+	
 	  color: rgba(255, 255, 255, 0.5);
+	  
 }
 .txtForNavBarWhite{
   color: #ffffff;
