@@ -1,10 +1,10 @@
 .bcgNav{
-	height: 56px;
+	height: auto;
 	background-color: #4b4e5f;
 }
 .btnNavBar{
   width: 82px;
-  height: 28px;
+  height: auto;
   border-radius: 10px;
   }
 .navbar-collapse{
@@ -41,7 +41,13 @@ justify-content: flex-end;
   border-radius: 100px;
   background-color: #39db2f;
 }
-
+.btnStyle{
+	width: 143px;
+  height: auto;
+  border-radius: 2px;
+  
+  
+}
 .bodyImg{
 	height: auto;
 	width: 100%;
