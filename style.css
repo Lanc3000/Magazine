@@ -33,6 +33,12 @@ justify-content: flex-end;
   letter-spacing: normal;
   color: #666666;
 }
+.btnCatalog{
+	width: 203px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #f4f4f4;
+}
 .header{
 	 background-image: url('img/hacki.jpg');
 	 background-attachment: fixed;
