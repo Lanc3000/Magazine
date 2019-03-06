@@ -10,6 +10,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script type="text/javascript">
+		$("#ex2").slider({});
+	</script>
 </head>
 <body style="background-color: #f6f6f6">
   <nav class="navbar navbar-expand-lg  navbar-dark bg-dark"">
@@ -124,17 +127,16 @@
 			<a class="dropdown-item" href="#">Something else here</a>
 			</div>
 		</div>
-		<div class="dropdown">
-		  <button class="btn btn-light dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			Цена
-		  </button>
-		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" href="#">Action</a>
-			<a class="dropdown-item" href="#">Another action</a>
-			<a class="dropdown-item" href="#">Something else here</a>
-			</div>
-		</div>
+		<select class="custom-select">
+			  <option selected>Open this select menu</option>
+			  <option value="1">One</option>
+			  <option value="2">Two</option>
+			  <option value="3">Three</option>
+		</select>
+		<b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+		 
 		<button type="button" class="btn  btnCatalog">Очистить</button>
+		
       </nav>  
       <!-- ARTICLE -->
       <article class="col-md-8 col-xl-9">
@@ -164,66 +166,104 @@
 						</div>
 					</div>
 				</div>		
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="card border-light" >
-					<div class="card-img">
-						<img align="center" src="img/pants.png" class="img-fluid">
-					</div>
-					<div class="card-body">
-						<h5 class="card-title txtCard">Штаны Play Hard</h5>
-						<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
-						<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card border-light" >
+						<div class="card-img">
+							<img align="center" src="img/pants.png" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title txtCard">Штаны Play Hard</h5>
+							<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
+							<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="card border-light" >
-					<div class="card-img">
-						<img align="center" src="img/combWhite.png" class="img-fluid">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card border-light" >
+						<div class="card-img">
+							<img align="center" src="img/combWhite.png" class="img-fluid">
+						</div>
+						<div class="card-body">
+								<h5 class="card-title txtCard">Свитшот Sheep Happens</h5>
+								<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
+								<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+						</div>
 					</div>
-					<div class="card-body">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card border-light" >
+						<div class="card-img">
+							<img align="center" src="img/combWhite.png" class="img-fluid">
+						</div>
+						<div class="card-body">
 							<h5 class="card-title txtCard">Свитшот Sheep Happens</h5>
 							<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
 							<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="card border-light" >
-					<div class="card-img">
-						<img align="center" src="img/combWhite.png" class="img-fluid">
-					</div>
-					<div class="card-body">
-						<h5 class="card-title txtCard">Свитшот Sheep Happens</h5>
-						<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
-						<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card border-light" >
+						<div class="card-img">
+							<img align="center" src="img/pants.png" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title txtCard">Штаны Play Hard</h5>
+							<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
+							<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="card border-light" >
-					<div class="card-img">
-						<img align="center" src="img/pants.png" class="img-fluid">
-					</div>
-					<div class="card-body">
-						<h5 class="card-title txtCard">Штаны Play Hard</h5>
-						<a href="#" class="btn btn-block btn-light btnGrey ">1100 ₽</a>
-						<a href="#" class="btn btn-block btn-primary btnBckg">В КОРЗИНУ</a>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<button type="button" class="btn btn-primary btn-block">Показать еще</button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+						<div class="btn-group mr-2" role="group" aria-label="First group">
+							<button type="button" class="btn btn-secondary">1</button>
+							<button type="button" class="btn btn-secondary">2</button>
+							<button type="button" class="btn btn-secondary">3</button>
+							<button type="button" class="btn btn-secondary">
+								<img src="img/ic-navigate-next-black-48-px.png">
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-			</div>
       </article>     
     </div>
   </div>
 </main>  
 <!-- FOOTER -->
-<footer>
-  <div class="container">
-  
-  </div>  
-</footer>
+	<footer class="footer d-flex  align-items-center">
+	  <div class="container">
+		
+		<div class="row ">
+			<div class="row d-flex justify-content-around">
+					<div >
+						<img src="img/LIMLOOK.png"></img>
+					</div>
+						<p class="txtForNavBarWhite">Платья и юбки</p>
+						<p class="txtForNavBarWhite">Комбинезоны</p>
+						<p class="txtForNavBarWhite">Свитшоты</p>
+						<p class="txtForNavBarWhite">Футболки</p>
+						<p class="txtForNavBarWhite">Халаты</p>
+						<p class="txtForNavBarWhite">Штаны</p>
+						<div class="mr-2">
+							<img src="img/group-22.png"></img>
+						</div>
+						<div class="mr-2">
+							<img src="img/group-24.png"></img>
+						</div>
+						<div class="mr-2">
+							<img src="img/group-23.png"></img>
+						</div>
+				</div>			
+		</div>
+		
+	  </div>  
+	</footer>
 </body>
 </html>
 
